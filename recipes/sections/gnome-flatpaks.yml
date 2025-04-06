@@ -1,0 +1,8 @@
+type: default-flatpaks
+notify: true
+system:
+  install:
+    - page.tesk.Refine
+    - com.mattjakeman.ExtensionManager
+    - io.github.celluloid_player.Celluloid
+user: {}

@@ -1,0 +1,16 @@
+type: rpm-ostree
+install:
+  - baobab
+  - gnome-boxes
+  - gnome-calculator
+  - gnome-characters
+  - gnome-clocks
+  - gnome-console
+  - gnome-font-viewer
+  - gnome-logs
+  - gnome-menus
+  - gnome-weather
+  - loupe
+  - papers
+  - simple-scan
+  - sushi

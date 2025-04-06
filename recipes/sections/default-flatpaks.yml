@@ -1,0 +1,11 @@
+type: default-flatpaks
+notify: true
+system:
+  install:
+    - io.github.dvlv.boxbuddyrs      # BoxBuddy
+    - com.brave.Browser              # Brave Browser
+    - org.fedoraproject.MediaWriter  # Fedora Media Writer
+    - com.github.tchx84.Flatseal     # Flatseal
+    - io.gitlab.librewolf-community  # LibreWolf Browser
+    - io.github.flattool.Warehouse   # Warehouse
+user: {}

@@ -1,0 +1,13 @@
+type: gnome-extensions
+install:
+  - 615  # AppIndicator and KStatusNotifierItem Support
+  - 307  # Dash-to-Dock
+  - 1160 # Dash to Panel
+  - 3193 # Blur my Shell
+  - 3628 # ArcMenu
+  - 3843 # Just Perfection
+  - 4228 # Wireless HID
+  - 4548 # Tactile
+  - 5090 # Space Bar
+  - 5470 # Weather O'Clock
+  - 7065 # Tiling Shell
