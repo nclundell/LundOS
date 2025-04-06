@@ -7,13 +7,13 @@ base-image: ghcr.io/ublue-os/silverblue-main
 image-version: latest
 
 modules:
-  - from-file: modules/default_flatpaks.yml
-  - from-file: modules/default_rpms.yml
-  - from-file: modules/gnome_extensions.yml
-  - from-file: modules/gnome_flatpaks.yml
-  - from-file: modules/gnome_rpms.yml
-  - from-file: modules/ghostty.yml
-  - from-file: modules/sway.yml
+  - from-file: sections/default-flatpaks.yml
+  - from-file: sections/default-rpms.yml
+  - from-file: sections/gnome-extensions.yml
+  - from-file: sections/gnome-flatpaks.yml
+  - from-file: sections/gnome-rpms.yml
+  - from-file: sections/ghostty.yml
+  - from-file: sections/sway.yml
     
   - type: files
     files:
