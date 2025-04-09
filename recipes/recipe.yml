@@ -12,8 +12,7 @@ modules:
   - from-file: sections/gnome-extensions.yml
   - from-file: sections/gnome-flatpaks.yml
   - from-file: sections/gnome-rpms.yml
-  - from-file: sections/ghostty.yml
-  - from-file: sections/sway.yml
+  # - from-file: sections/ghostty.yml
     
   - type: files
     files:
