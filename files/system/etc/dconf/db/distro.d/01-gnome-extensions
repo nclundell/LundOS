@@ -1,4 +1,4 @@
-[org/gnome/shell/extensions]
+[org/gnome/shell]
 enabled-extensions=['appindicatorsupport@rgcjonas.gmail.com', 'weatheroclock@CleoMenezesJr.github.io', 'just-perfection-desktop@just-perfection', 'blur-my-shell@aunetx']
 
 [org/gnome/shell/extensions/just-perfection]
