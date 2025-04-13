@@ -1,0 +1,2 @@
+[org/gnome/desktop/wm/preferences]
+buttom-layout='appmenu:minimize,maximize,close'
