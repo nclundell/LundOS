@@ -1,0 +1,5 @@
+[org/gnome/shell/extensions]
+enabled-extensions=['appindicatorsupport@rgcjonas.gmail.com', 'weatheroclock@CleoMenezesJr.github.io', 'just-perfection-desktop@just-perfection', 'blur-my-shell@aunetx']
+
+[org/gnome/shell/extensions/just-perfection]
+startup-status=0
