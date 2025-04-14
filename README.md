@@ -17,3 +17,13 @@ To rebase an existing atomic Fedora installation to the latest build:
   ```
   systemctl reboot
   ```
+
+  To build an ISO:
+  - Install the BlueBuild CLI tool
+  ```
+  podman run --pull always --rm ghcr.io/blue-build/cli:latest-installer | bash
+  ```
+  - Run the BlueBuild ISO generator:
+  ```
+  sudo bluebuild generate-iso --iso-name lundos.iso image ghcr.io/nclundell/lundos
+  ```
