@@ -14,3 +14,8 @@ install:
   - papers
   - simple-scan
   - sushi
+  # Extensions
+  - gnome-shell-extension-appindicator
+  - gnome-shell-extension-blur-my-shell
+  - gnome-shell-extension-forge
+  - gnome-shell-extension-gsconnect
