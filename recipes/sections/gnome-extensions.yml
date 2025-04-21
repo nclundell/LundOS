@@ -1,5 +1,6 @@
 type: gnome-extensions
 install:
+  - 1460 # Vitals
   - 3628 # ArcMenu
   - 4228 # Wireless HID
   - 5090 # Space Bar
