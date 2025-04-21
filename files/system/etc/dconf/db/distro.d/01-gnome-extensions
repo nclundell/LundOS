@@ -1,5 +1,13 @@
 [org/gnome/shell]
-enabled-extensions=['appindicatorsupport@rgcjonas.gmail.com', 'weatheroclock@CleoMenezesJr.github.io', 'just-perfection-desktop@just-perfection', 'blur-my-shell@aunetx', 'wireless-hid@chlumskyvaclav.gmail.com', 'space-bar@luchrioh']
+enabled-extensions=['appindicatorsupport@rgcjonas.gmail.com', 'weatheroclock@CleoMenezesJr.github.io', 'just-perfection-desktop@just-perfection', 'blur-my-shell@aunetx', 'wireless-hid@chlumskyvaclav.gmail.com', 'space-bar@luchrioh', 'gamemodeshellextension@trsnaqe.com']
+
+[org/gnome/shell/extensions/forge]
+tiling-mode-enabled=false
+window-gap-size=10
+window-gap-size-increment=2
+
+[org/gnome/shell/extensions/gamemodeshellextension]
+show-icon-only-when-active=true
 
 [org/gnome/shell/extensions/just-perfection]
 startup-status=0
