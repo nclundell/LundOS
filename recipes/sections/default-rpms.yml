@@ -6,9 +6,10 @@ install:
   - google-noto-fonts-all
   - google-noto-emoji-fonts
   - google-noto-color-emoji-fonts
-  - stow
+  - lm_sensors
   - papirus-icon-theme
   - papirus-icon-theme-dark
+  - stow
   - yaru-icon-theme
 remove:
   - firefox

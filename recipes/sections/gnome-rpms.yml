@@ -17,5 +17,9 @@ install:
   # Extensions
   - gnome-shell-extension-appindicator
   - gnome-shell-extension-blur-my-shell
+  - gnome-shell-extension-dash-to-dock
+  - gnome-shell-extension-dash-to-panel
   - gnome-shell-extension-forge
+  - gnome-shell-extension-freon
   - gnome-shell-extension-gsconnect
+  - gnome-shell-extension-just-perfection
