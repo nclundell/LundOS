@@ -7,6 +7,7 @@ install:
   - google-noto-emoji-fonts
   - google-noto-color-emoji-fonts
   - lm_sensors
+  - mpd
   - papirus-icon-theme
   - papirus-icon-theme-dark
   - stow
