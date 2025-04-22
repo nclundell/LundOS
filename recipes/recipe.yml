@@ -3,15 +3,15 @@
 # image will be published to ghcr.io/<user>/<name>
 name: LundOS
 description: This is my personal OS image.
-base-image: ghcr.io/ublue-os/cosmic-atomic-main
+base-image: ghcr.io/ublue-os/silverblue-main
 image-version: latest
 
 modules:
   - from-file: sections/default-flatpaks.yml
   - from-file: sections/default-rpms.yml
-  # - from-file: sections/gnome-extensions.yml
-  # - from-file: sections/gnome-flatpaks.yml
-  # - from-file: sections/gnome-rpms.yml
+  - from-file: sections/gnome-extensions.yml
+  - from-file: sections/gnome-flatpaks.yml
+  - from-file: sections/gnome-rpms.yml
   # - from-file: sections/ghostty.yml
     
   - type: files
@@ -19,8 +19,8 @@ modules:
       - source: system
         destination: /
 
-  # - type: bling
-  #   install:
-  #     - dconf-update-service
+  - type: bling
+    install:
+      - dconf-update-service
 
   - type: signing
