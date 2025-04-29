@@ -19,8 +19,4 @@ modules:
       - source: system
         destination: /
 
-  - type: bling
-    install:
-      - dconf-update-service
-
   - type: signing
