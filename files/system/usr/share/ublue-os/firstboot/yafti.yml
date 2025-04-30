@@ -88,7 +88,7 @@ screens:
             - Fragments (Torrents): de.haeckerfelix.Fragments
             - Warehouse: io.github.flattool.Warehouse
         Web Browsers:
-          description: Pick your browser!.
+          description: Pick your browser!
           default: false
           packages:
             - Brave: com.brave.Browser
@@ -107,8 +107,10 @@ screens:
           description: Apps for playing music and videos.
           default: false
           packages:
-            - Celluloid (Video Player): org.gnome.Totem
+            - Celluloid (Video Player): io.github.celluloid_player.Celluloid
+            - Freetube (Youtube): io.freetubeapp.FreeTube
             - Gapless (Music Player): com.github.neithern.g4music
+            - Parabolic: org.nickvision.tubeconverter
             - Plattenalbum (MPD Client): de.wagnermartin.Plattenalbum
             - Shortwave (Internet Radio): de.haeckerfelix.Shortwave
         Gaming:
