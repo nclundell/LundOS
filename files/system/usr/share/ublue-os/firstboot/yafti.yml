@@ -101,7 +101,7 @@ screens:
           default: false
           packages:
             - Discord: com.discordapp.Discord
-            - Element: flatpak run im.riot.Riot
+            - Element: im.riot.Riot
             - Telegram: org.telegram.desktop
         Media:
           description: Apps for playing music and videos.
