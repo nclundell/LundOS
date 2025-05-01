@@ -10,9 +10,10 @@ modules:
   - from-file: sections/default-flatpaks.yml
   - from-file: sections/default-rpms.yml
   - from-file: sections/gnome-extensions.yml
-  # - from-file: sections/gnome-flatpaks.yml
+  - from-file: sections/gnome-flatpaks.yml
   - from-file: sections/gnome-rpms.yml
-  # - from-file: sections/ghostty.yml
+  - from-file: sections/ghostty.yml
+  - from-file: sections/hyprland.yml
     
   - type: files
     files:
