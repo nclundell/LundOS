@@ -14,4 +14,3 @@ install:
 remove:
   - firefox
   - firefox-langpacks
-  - pytxis
