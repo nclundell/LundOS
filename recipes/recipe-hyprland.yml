@@ -8,7 +8,7 @@ image-version: latest
 
 modules:
   - from-file: modules/default.yml
-  - from-file: modules/hyprland.yml
+  # - from-file: modules/hyprland.yml
   - from-file: modules/ghostty.yml
     
   - type: files
