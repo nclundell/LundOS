@@ -1,0 +1,17 @@
+---
+# yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
+# image will be published to ghcr.io/<user>/<name>
+name: LundOS-Hyprland
+description: This is my personal OS image using Hyprland.
+base-image: ghcr.io/wayblueorg/hyprland
+image-version: latest
+
+modules:
+  - from-file: modules/default.yml
+  - from-file: modules/hyprland.yml
+  - from-file: modules/ghostty.yml
+    
+  - type: files
+    files:
+      - source: system
+        destination: /
