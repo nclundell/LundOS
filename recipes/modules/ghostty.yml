@@ -3,5 +3,3 @@ repos:
   - https://copr.fedorainfracloud.org/coprs/pgdev/ghostty/repo/fedora-%OS_VERSION%/pgdev-ghostty-fedora-%OS_VERSION%.repo
 install:
   - ghostty
-remove:
-  - ptyxis
