@@ -23,26 +23,10 @@ modules:
       - papirus-icon-theme-dark
       - yaru-icon-theme
       # tools
-      - atuin
-      - bat
-      - eza
-      - fd
-      - fzf
       - git
       - git-delta
-      - imagemagick
-      - jq
-      - just
       - lm_sensors
-      - neovim
-      - openssh
-      - openssl
-      - p7zip
-      - poppler
-      - ripgrep
       - stow
-      - tmux
-      - zoxide
     remove:
       - firefox
       - firefox-langpacks
