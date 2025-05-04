@@ -12,8 +12,6 @@ modules:
     user: {}
       
   - type: rpm-ostree
-    repos:
-      - https://copr.fedorainfracloud.org/coprs/lihaohong/yazi/repo/fedora-%OS_VERSION%/lihaohong-yazi-fedora-%OS_VERSION%.repo
     install:
       # fonts
       - google-droid-fonts-all
@@ -41,11 +39,9 @@ modules:
       - openssl
       - p7zip
       - poppler
-      - resvg
       - ripgrep
       - stow
       - tmux
-      - yazi
       - zoxide
     remove:
       - firefox
