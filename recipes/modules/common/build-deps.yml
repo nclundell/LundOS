@@ -1,0 +1,16 @@
+type: rpm-ostree
+install:
+  - autoconf
+  - bzip2
+  - gcc
+  - make
+  - patch
+  - perl-FindBin
+  - rust
+  - gdbm-devel
+  - libffi-devel
+  - libyaml-devel
+  - ncurses-devel
+  - openssl-devel
+  - readline-devel
+  - zlib-ng-compat-devel

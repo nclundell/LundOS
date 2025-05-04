@@ -1,0 +1,5 @@
+type: rpm-ostree
+repos:
+  - https://copr.fedorainfracloud.org/coprs/tofik/nwg-shell/repo/fedora-%OS_VERSION%/tofik-nwg-shell-%OS_VERSION%.repo
+install:
+  - nwg-look
