@@ -3,7 +3,10 @@ install:
   - autoconf
   - bzip2
   - gcc
+  - gcc-c++
   - make
+  - openssh
+  - openssl
   - patch
   - perl-FindBin
   - rust
