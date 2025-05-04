@@ -18,6 +18,16 @@ modules:
       - google-noto-fonts-all
       - google-noto-emoji-fonts
       - google-noto-color-emoji-fonts
+      # gvfs
+      - gvfs-afc
+      - gvfs-afp
+      - gvfs-archive
+      - gvfs-fuse
+      - gvfs-goa
+      - gvfs-gphoto2
+      - gvfs-mtp
+      - gvfs-nfs
+      - gvfs-smb
       # icons
       - papirus-icon-theme
       - papirus-icon-theme-dark

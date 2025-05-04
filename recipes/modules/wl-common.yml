@@ -8,12 +8,6 @@ modules:
 
       # file manager
       - android-tools
-      - gvfs-archive
-      - gvfs-fuse
-      - gvfs-gphoto2
-      - gvfs-mtp
-      - gvfs-nfs
-      - gvfs-smb
       - udiskie
 
       # media
