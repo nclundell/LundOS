@@ -1,0 +1,41 @@
+modules:
+  - type: rpm-ostree
+    install: 
+      - foot  
+      - wl-clipboard
+      - xorg-x11-server-Xwayland
+      - xdg-user-dirs
+
+      # file manager
+      - android-tools
+      - gvfs-archive
+      - gvfs-fuse
+      - gvfs-gphoto2
+      - gvfs-mtp
+      - gvfs-nfs
+      - gvfs-smb
+      - udiskie
+
+      # media
+      - libmpd
+      - mediainfo
+      - mpc
+      - mpv 
+      - ncmpcpp
+      - playerctl
+
+      # networking
+      - blueman
+      - bluez
+      - bluez-tools
+      - firewall-config
+      - network-manager-applet
+      - NetworkManager-openvpn
+      - NetworkManager-openvpn-gnome
+      - NetworkManager-openconnect
+      - NetworkManager-openconnect-gnome
+
+      # sound
+      - pamixer
+      - pavucontrol
+      - pulseaudio-utils

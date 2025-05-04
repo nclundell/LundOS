@@ -12,5 +12,6 @@ modules:
       - hyprpaper
       - hyprshot
       - nwg-look
+      - SwayNotificationCenter
       - waybar
       - waypaper
