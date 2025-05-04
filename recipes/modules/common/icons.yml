@@ -1,0 +1,5 @@
+type: rpm-ostree
+install:
+  - papirus-icon-theme
+  - papirus-icon-theme-dark
+  - yaru-icon-theme

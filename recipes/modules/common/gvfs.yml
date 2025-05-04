@@ -1,0 +1,12 @@
+type: rpm-ostree
+install:
+  - gvfs-afc
+  - gvfs-afp
+  - gvfs-archive
+  - gvfs-fuse
+  - gvfs-goa
+  - gvfs-gphoto2
+  - gvfs-mtp
+  - gvfs-nfs
+  - gvfs-smb
+    

@@ -1,17 +1,22 @@
 ---
 # yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
 # image will be published to ghcr.io/<user>/<name>
-name: LundOS
+name: lundos
 description: This is my personal OS image using Gnome.
 base-image: ghcr.io/ublue-os/silverblue-main
 image-version: latest
 
 modules:
-  - from-file: modules/default.yml
   - from-file: modules/gnome.yml
-  - from-file: modules/ghostty.yml
+  - from-file: modules/common/flatpaks.yml
+  - from-file: modules/common/fonts.yml
+  - from-file: modules/common/gvfs.yml
+  - from-file: modules/common/icons.yml
+  - from-file: modules/common/tools.yml
     
   - type: files
     files:
       - source: system
         destination: /
+
+  - type: signing

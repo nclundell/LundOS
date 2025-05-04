@@ -4,6 +4,7 @@ modules:
       - 1460 # Vitals
       - 3628 # ArcMenu
       - 4228 # Wireless HID
+      - 4269 # Alphabetical App Grid
       - 5090 # Space Bar
       - 5470 # Weather O'Clock
       - 7074 # GameMode Indicator
@@ -36,6 +37,11 @@ modules:
 
   - type: rpm-ostree
     install:
+      # shell
+      # - gnome-shell
+      # - nautilus
+      # - sushi
+      # extensions
       - gnome-shell-extension-appindicator
       - gnome-shell-extension-blur-my-shell
       - gnome-shell-extension-dash-to-dock
