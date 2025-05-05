@@ -1,23 +1,4 @@
 modules:
-  - type: gnome-extensions
-    install:
-      - 1460 # Vitals
-      - 3628 # ArcMenu
-      - 4228 # Wireless HID
-      - 4269 # Alphabetical App Grid
-      - 5090 # Space Bar
-      - 5470 # Weather O'Clock
-      - 7074 # GameMode Indicator
-
-  - type: default-flatpaks
-    notify: true
-    system:
-      install:
-          - com.mattjakeman.ExtensionManager
-          - io.missioncenter.MissionCenter
-          - page.tesk.Refine
-    user: {}
-
   - type: rpm-ostree
     install:
       - baobab
@@ -45,3 +26,23 @@ modules:
       - gnome-shell-extension-forge
       - gnome-shell-extension-gsconnect
       - gnome-shell-extension-just-perfection
+
+  - type: default-flatpaks
+    notify: true
+    system:
+      install:
+          - com.mattjakeman.ExtensionManager
+          - io.missioncenter.MissionCenter
+          - page.tesk.Refine
+    user: {}
+
+  - type: gnome-extensions
+    install:
+      - 1460 # Vitals
+      - 3628 # ArcMenu
+      - 4228 # Wireless HID
+      - 4269 # Alphabetical App Grid
+      - 5090 # Space Bar
+      - 5470 # Weather O'Clock
+      - 7074 # GameMode Indicator
+
