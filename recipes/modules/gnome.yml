@@ -1,21 +1,18 @@
 modules:
   - type: rpm-ostree
     install:
-      # - baobab
-      # - celluloid
-      # - gnome-backgrounds
-      # - gnome-boxes
-      # - gnome-calculator
-      # - gnome-calendar
-      # - gnome-clocks
-      # - gnome-logs
-      # - gnome-maps
-      # - gnome-menus
-      # - gnome-weather
-      # - loupe
-      # - papers
-      # - simple-scan
-      # - sushi
+      - baobab
+      - celluloid
+      - gnome-boxes
+      - gnome-calculator
+      - gnome-clocks
+      - gnome-logs
+      - gnome-maps
+      - gnome-menus
+      - gnome-weather
+      - loupe
+      - papers
+      - simple-scan
       # extensions
       - gnome-shell-extension-appindicator
       - gnome-shell-extension-blur-my-shell
@@ -26,11 +23,10 @@ modules:
       - gnome-shell-extension-just-perfection
 
   - type: default-flatpaks
-    notify: true
+    notify: false
     system:
       install:
           - com.mattjakeman.ExtensionManager
-          - io.missioncenter.MissionCenter
           - page.tesk.Refine
     user: {}
 
