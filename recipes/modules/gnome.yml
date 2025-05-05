@@ -1,21 +1,21 @@
 modules:
   - type: rpm-ostree
     install:
-      - baobab
-      - celluloid
-      - gnome-backgrounds
-      - gnome-boxes
-      - gnome-calculator
-      - gnome-calendar
-      - gnome-clocks
-      - gnome-logs
-      - gnome-maps
-      - gnome-menus
-      - gnome-weather
-      - loupe
-      - papers
-      - simple-scan
-      - sushi
+      # - baobab
+      # - celluloid
+      # - gnome-backgrounds
+      # - gnome-boxes
+      # - gnome-calculator
+      # - gnome-calendar
+      # - gnome-clocks
+      # - gnome-logs
+      # - gnome-maps
+      # - gnome-menus
+      # - gnome-weather
+      # - loupe
+      # - papers
+      # - simple-scan
+      # - sushi
       # extensions
       - gnome-shell-extension-appindicator
       - gnome-shell-extension-blur-my-shell
