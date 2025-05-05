@@ -1,7 +1,6 @@
 modules:
   - type: rpm-ostree
     install: 
-      - foot  
       - wl-clipboard
       - xorg-x11-server-Xwayland
       - xdg-user-dirs

@@ -3,7 +3,7 @@
 # image will be published to ghcr.io/<user>/<name>
 name: lundos
 description: This is my personal OS image using Gnome.
-base-image: ghcr.io/ublue-os/silverblue-main
+base-image: ghcr.io/ublue-os/base-main
 image-version: latest
 
 modules:
@@ -12,10 +12,13 @@ modules:
   - from-file: modules/common/build-deps.yml
   - from-file: modules/common/flatpaks.yml
   - from-file: modules/common/fonts.yml
+  - from-file: modules/common/ghostty.yml
   - from-file: modules/common/gvfs.yml
   - from-file: modules/common/icons.yml
   - from-file: modules/common/tools.yml
     
+  - type: gschema-overrides
+
   - type: files
     files:
       - source: system

@@ -12,6 +12,7 @@ modules:
   - from-file: modules/common/build-deps.yml
   - from-file: modules/common/flatpaks.yml
   - from-file: modules/common/fonts.yml
+  - from-file: modules/common/ghostty.yml
   - from-file: modules/common/gvfs.yml
   - from-file: modules/common/icons.yml
   - from-file: modules/common/tools.yml
