@@ -21,6 +21,9 @@ modules:
       - gnome-shell-extension-forge
       - gnome-shell-extension-gsconnect
       - gnome-shell-extension-just-perfection
+    remove:
+      - htop
+      - nvtop
 
   - type: default-flatpaks
     notify: false
