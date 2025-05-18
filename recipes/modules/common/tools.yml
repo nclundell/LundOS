@@ -4,3 +4,4 @@ install:
   - git-delta
   - lm_sensors
   - stow
+  - zsh
