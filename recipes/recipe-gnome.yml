@@ -16,7 +16,7 @@ modules:
   - from-file: modules/common/icons.yml
   - from-file: modules/common/tools.yml
     
-  - type: gschema-overrides
+  - type: brew
 
   - type: files
     files:
