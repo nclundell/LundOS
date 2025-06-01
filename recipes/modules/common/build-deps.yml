@@ -3,7 +3,6 @@ install:
   - autoconf
   - bzip2
   - gcc
-  - gcc-c++
   - make
   - openssh
   - openssl
