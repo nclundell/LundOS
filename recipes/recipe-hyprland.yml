@@ -9,7 +9,7 @@ image-version: latest
 modules:
   - from-file: modules/hyprland.yml
   - from-file: modules/common/browsers.yml
-  - from-file: modules/common/build-deps.yml
+  # - from-file: modules/common/build-deps.yml
   - from-file: modules/common/flatpaks.yml
   - from-file: modules/common/fonts.yml
   - from-file: modules/common/ghostty.yml
@@ -18,6 +18,8 @@ modules:
   - from-file: modules/common/tools.yml
   - from-file: modules/common/wayland.yml
     
+  - type: brew
+
   - type: files
     files:
       - source: system
