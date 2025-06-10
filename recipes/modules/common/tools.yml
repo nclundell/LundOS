@@ -2,6 +2,7 @@ type: rpm-ostree
 install:
   - git
   - git-delta
+  - inotify-tools
   - lm_sensors
   - stow
   - zsh
