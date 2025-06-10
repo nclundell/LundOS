@@ -1,8 +1,9 @@
 modules:
-  - type: rpm-ostree
+  - type: dnf
     remove:
-      - firefox
-      - firefox-langpacks
+      packages:
+        - firefox
+        - firefox-langpacks
 
   - type: default-flatpaks
     notify: false

@@ -1,18 +1,19 @@
-type: rpm-ostree
+type: dnf
 install:
-  - autoconf
-  - bzip2
-  - gcc
-  - make
-  - openssh
-  - openssl
-  - patch
-  - perl-FindBin
-  - rust
-  - gdbm-devel
-  - libffi-devel
-  - libyaml-devel
-  - ncurses-devel
-  - openssl-devel
-  - readline-devel
-  - zlib-ng-compat-devel
+  packages:
+    - autoconf
+    - bzip2
+    - gcc
+    - make
+    - openssh
+    - openssl
+    - patch
+    - perl-FindBin
+    - rust
+    - gdbm-devel
+    - libffi-devel
+    - libyaml-devel
+    - ncurses-devel
+    - openssl-devel
+    - readline-devel
+    - zlib-ng-compat-devel

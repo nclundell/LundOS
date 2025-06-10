@@ -1,5 +1,6 @@
-type: rpm-ostree
+type: dnf
 install:
-  - papirus-icon-theme
-  - papirus-icon-theme-dark
-  - yaru-icon-theme
+  packages:
+    - papirus-icon-theme
+    - papirus-icon-theme-dark
+    - yaru-icon-theme

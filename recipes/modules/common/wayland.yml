@@ -1,34 +1,35 @@
 modules:
-  - type: rpm-ostree
+  - type: dnf
     install: 
-      - wl-clipboard
-      - xorg-x11-server-Xwayland
-      - xdg-user-dirs-gtk
+      packages:
+        - wl-clipboard
+        - xorg-x11-server-Xwayland
+        - xdg-user-dirs-gtk
 
-      # file manager
-      - android-tools
-      - udiskie
+        # file manager
+        - android-tools
+        - udiskie
 
-      # media
-      - libmpd
-      - mediainfo
-      - mpc
-      - mpv 
-      - ncmpcpp
-      - playerctl
+        # media
+        - libmpd
+        - mediainfo
+        - mpc
+        - mpv 
+        - ncmpcpp
+        - playerctl
 
-      # networking
-      - blueman
-      - bluez
-      - bluez-tools
-      - firewall-config
-      - network-manager-applet
-      - NetworkManager-openvpn
-      - NetworkManager-openvpn-gnome
-      - NetworkManager-openconnect
-      - NetworkManager-openconnect-gnome
+        # networking
+        - blueman
+        - bluez
+        - bluez-tools
+        - firewall-config
+        - network-manager-applet
+        - NetworkManager-openvpn
+        - NetworkManager-openvpn-gnome
+        - NetworkManager-openconnect
+        - NetworkManager-openconnect-gnome
 
-      # sound
-      - pamixer
-      - pavucontrol
-      - pulseaudio-utils
+        # sound
+        - pamixer
+        - pavucontrol
+        - pulseaudio-utils

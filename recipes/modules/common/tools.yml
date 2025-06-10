@@ -1,8 +1,9 @@
-type: rpm-ostree
+type: dnf
 install:
-  - git
-  - git-delta
-  - inotify-tools
-  - lm_sensors
-  - stow
-  - zsh
+  packages:
+    - git
+    - git-delta
+    - inotify-tools
+    - lm_sensors
+    - stow
+    - zsh
