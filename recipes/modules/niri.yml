@@ -4,4 +4,4 @@ modules:
       copr:
         - 'yalter/niri'
     install:
-      - niri
+      - 'niri'
