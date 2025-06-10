@@ -6,7 +6,5 @@ modules:
     install:
       packages:
         - niri
-        - nwg-look
         - SwayNotificationCenter
         - waybar
-        - waypaper
