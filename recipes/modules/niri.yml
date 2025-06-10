@@ -2,7 +2,11 @@ modules:
   - type: dnf
     repos:
       copr:
-        - 'yalter/niri'
+        - yalter/niri
     install:
       packages:
-        - 'niri'
+        - niri
+        - nwg-look
+        - SwayNotificationCenter
+        - waybar
+        - waypaper
