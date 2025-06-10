@@ -17,8 +17,6 @@ modules:
   - from-file: modules/common/tools.yml
   - from-file: modules/common/wayland.yml
     
-  - type: brew
-
   - type: files
     files:
       - source: system
