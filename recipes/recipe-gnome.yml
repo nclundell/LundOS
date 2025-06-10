@@ -16,8 +16,6 @@ modules:
   - from-file: modules/common/icons.yml
   - from-file: modules/common/tools.yml
     
-  - type: brew
-
   - type: files
     files:
       - source: system
