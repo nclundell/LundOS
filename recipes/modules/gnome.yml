@@ -18,7 +18,6 @@ modules:
       - gnome-shell-extension-blur-my-shell
       - gnome-shell-extension-dash-to-dock
       - gnome-shell-extension-dash-to-panel
-      - gnome-shell-extension-forge
       - gnome-shell-extension-gsconnect
       - gnome-shell-extension-just-perfection
     remove:
@@ -41,5 +40,6 @@ modules:
       - 4269 # Alphabetical App Grid
       - 5090 # Space Bar
       - 5470 # Weather O'Clock
+      - 6099 # PaperWM
       - 7074 # GameMode Indicator
 

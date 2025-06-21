@@ -28,7 +28,8 @@ jobs:
         recipe:
           # !! Add your recipes here
           - recipe-gnome.yml
-          - recipe-hyprland.yml
+          # - recipe-hyprland.yml
+          - recipe-niri.yml
     steps:
       # the build is fully handled by the reusable github action
       - name: Build Custom Image

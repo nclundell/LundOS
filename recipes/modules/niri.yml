@@ -6,5 +6,3 @@ modules:
     install:
       packages:
         - niri
-        - SwayNotificationCenter
-        - waybar
