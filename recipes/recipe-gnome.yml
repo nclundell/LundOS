@@ -8,7 +8,6 @@ image-version: latest
 
 modules:
   - from-file: modules/gnome.yml
-  - from-file: modules/niri.yml
   - from-file: modules/common/browsers.yml
   - from-file: modules/common/flatpaks.yml
   - from-file: modules/common/fonts.yml
